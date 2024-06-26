@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Delete Confirm";
+}
+
+<div class="text-center">
+
+    <h1 class="display-4">You really sure to delete this contact?</h1>
+
+</div>
+
+<br />
+<br />
+
+<div class="text-center">
+    <a class="btn btn-primary btn-lg" role="button" asp-controller="Contact" asp-action="Index">Cancel Delete</a>
+    <a class="btn btn-danger btn-lg" role="button" asp-controller="Contact" asp-action="Delete">Confirm Delete</a>
+</div>
